@@ -4,10 +4,13 @@ import './signup.css'
 function Signup() {
     return (
         <div className="App">
+           <div class="top-bar">
             <div className="header">
+           
         <img alt="logo" src={logo}/>
-        
+        </div>
       </div>
+      
      
       <h1>Signup</h1>
       <div class="main">

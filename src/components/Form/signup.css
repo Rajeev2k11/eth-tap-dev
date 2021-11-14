@@ -1,9 +1,13 @@
-
+Body{
+    background-color: #E7E7E7;
+}
 .App {
     text-align: center;
+   
   }
   .header{
     margin-top:2rem ;
+    margin-right: 80rem;
 
   }
   .main {
@@ -26,7 +30,7 @@
 h1{
     font-size: 38px;
     line-height: 44px;
-    margin-top: 5rem;
+    margin-top: 10rem;
     margin-right: 17rem;
 }
 
@@ -40,7 +44,7 @@ h1{
 
 .un {
     width: 76%;
-    color: rgb(38, 50, 56);
+    color: rgb(38, 50, 56); 
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 1px;
@@ -81,6 +85,17 @@ h1{
       margin-right: 35px;
       
     }
+
+    .top-bar {
+      position: fixed;
+      left: 0%;
+      top: 0%;
+      right: 0%;
+      bottom: auto;
+      height: 70px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.34);
+      background-color: #e8e8e8;
+    }
     
     .pass {
           width: 76%;
@@ -111,7 +126,7 @@ h1{
     .submit {
     cursor: pointer;
       
-      color:white !important;
+      color: #fff !important;
       background: #323232;
       border: 0;
       padding-left: 40px;
