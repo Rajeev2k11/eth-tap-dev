@@ -15,13 +15,14 @@ import Nextfive from "./components/Nextone/Nextfive";
 import Nextsix from "./components/Nextone/Nextsix";
 import Signup from "./components/Form/Signup";
 import Login from "./components/Form/Login";
+import Taps from "./components/Home/Taps";
 function App() {
   return (
     <Router>
       <ToastProvider>
         <div className="App">
-          <Route path="/" exact component={Home} />
-         
+          
+        <Route path="/" exact component={Home}/>
           <Route path="/Nextone" exact component={Nextone} />
           <Route path="/Nexttwo" exact component={Nexttwo} />
           <Route path="/Nextthree" exact component={Nextthree} />
@@ -30,6 +31,8 @@ function App() {
           <Route path="/Nextsix" exact component={Nextsix} />
           <Route path="/signup" exact component={Signup}/>
           <Route path="/login" exact component={Login}/>
+          <Route path="/taps" exact component={Taps}/>
+          
           {/* <Route path="/crypto-staking-defi-lending-turnkey-solution" exact component={StakingDefi} /> */}
         </div>
       </ToastProvider>

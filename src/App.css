@@ -104,6 +104,7 @@ a:active, a:hover {
 }
 .link-2 {
   margin-bottom: 32px;
+  
 }
 .inline {
   max-width: 100%;
@@ -173,8 +174,13 @@ a {
 h1 {
   font-size: 38px;
   line-height: 44px;
-  margin-top: 20px;
+  
 }
+.h1{
+  font-size: 38px;
+  font-weight: 700;
+}
+
 .block-6 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -986,4 +992,31 @@ border-right-style: solid !important;
 	  height: auto;
 	  min-height: 80vh;
 	}
+  }
+  
+  .widget-text{
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: 700;
+    padding:2rem;
+  }
+  .edit{
+    flex-direction: row;
+    padding:10px;
+  }
+  .delete{
+    flex-direction: row;
+    padding:10px;
+  }
+  .container-widget{
+    
+
+  display: flex;
+  width: 300px;
+  height: 100px;
+  margin-top: 15px;
+  padding: 16px;
+  align-items: center;
+  border-radius: 16px;
+  background-color: #fff;
   }
