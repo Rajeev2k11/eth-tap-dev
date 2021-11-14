@@ -11,8 +11,10 @@ function Login() {
       <div className="App">
       <div class="top-bar">
             <div className="header">
-           
-        <img alt="logo" src={logo}/>
+          <a href="/">
+          <img alt="logo" src={logo}/>    
+          </a> 
+        
         </div>
       </div>
      
